@@ -86,4 +86,8 @@ form > input:last-child {
     color: hsl(0, 100%, 74%)
 }
 
+.error {
+    border: 1px solid red;
+}
+
 

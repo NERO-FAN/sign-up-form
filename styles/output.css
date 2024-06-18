@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, Helvetica, sans-seriff;
+  color: white;
+  background-color: hsl(0, 100%, 74%);
+  background-image: url("../images/bg-intro-desktop.png");
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  justify-content: space-between;
+  padding: 10rem 12rem;
+}
+.container .page-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container .page-text h1 {
+  font-size: 3.5rem;
+  line-height: 1.25;
+  margin-bottom: 1.75rem;
+}
+.container .page-text p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-top: 0;
+}
+.container .form-container {
+  display: grid;
+}
+.container .form-container .trial-box {
+  background-color: hsl(248, 32%, 49%);
+  padding: 0.5rem 1.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.container .form-container .form {
+  background-color: white;
+  padding: 2rem;
+}
+.container .form-container .form form {
+  display: flex;
+  flex-direction: column;
+}
+.container .form-container .form form input {
+  padding: 1rem;
+  color: black;
+  margin-bottom: 1rem;
+  border: 1px solid lightgrey;
+  border-radius: 0.5rem;
+  font-weight: 700;
+}
+.container .form-container .form form input:focus {
+  border: 1px solid black;
+}
+.container .form-container .form form input:last-child {
+  background-color: hsl(154, 59%, 51%);
+  text-align: center;
+}
+.container .form-container .form form input.error {
+  border: 1px solid red;
+}
+.container .form-container .round-edges {
+  border-radius: 1rem;
+}
+.container .form-container .container-shadow {
+  box-shadow: 0 0.5rem rgba(0, 0, 0, 0.15);
+}
+.container .form-container .terms {
+  color: lightgray;
+  font-size: 0.75rem;
+  text-align: center;
+}
+.container .form-container .terms strong {
+  color: hsl(0, 100%, 74%);
+}
+
+/*# sourceMappingURL=output.css.map */

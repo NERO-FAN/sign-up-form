@@ -3,7 +3,8 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Sign Up Form</title>
-		<link rel="stylesheet" href="styles/sign-up-page.css"/>
+		<link rel="stylesheet" href="./styles/output.css"/>
+		<script src="app.js"></script>
 	</head>
 	<body>
 		<div class="container">
@@ -25,11 +26,11 @@
 				</div>
 				<div class="round-edges form container-shadow">
 					<form>
-						<input type="text" name="first-name" placeholder="First Name">
-						<input type="text" name="last-name" placeholder="Last Name">
-						<input type="text" name="email-address" placeholder="Email Address">
-						<input type="text" name="password" placeholder="Password">
-						<input type="button" value="CLAIM YOUR FREE TRIAL">
+						<input id="first-name" type="text" name="first-name" placeholder="First Name">
+						<input id="last-name" type="text" name="last-name" placeholder="Last Name">
+						<input id="email" type="text" name="email-address" placeholder="Email Address">
+						<input id="password" type="text" name="password" placeholder="Password">
+						<input type="button" value="CLAIM YOUR FREE TRIAL" onclick="onSubmit()">
 					</form>
 					<p class="terms">
 						By clicking the button, you are agreeing to our
